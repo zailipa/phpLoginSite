@@ -1,0 +1,115 @@
+body {
+  background-color: #E4D8DC;
+  margin: 20px;
+  font-family: 'Merriweather', serif;
+
+}
+
+#heading {
+  background-color: #FFE3E3;
+  font-family: 'Fira Sans', sans-serif;
+  padding: 15px;
+  margin: 5px;
+}
+
+
+.intro {
+  font-family: 'Sacramento', cursive;
+}
+
+.wrapper{
+  position: relative;
+}
+
+.menubar{
+  float: left;
+  width: 200px;
+}
+
+.menuitem{
+  background-color:#C9CCD5;
+  color: #1E3163;
+  border: 3px solid #E4D8DC;
+  border-radius: 15px;
+  list-style-type: none;
+  padding: 2px;
+  margin: 4px;
+}
+
+.menuitem:hover{
+  background-color: #93B5C6;
+  color: white;
+  font-weight: bold;
+}
+
+.menuitem a{
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  margin: 0 200px;
+}
+
+.main a, .announce a{
+  color: #6C4A4A;
+  text-decoration: none;
+}
+
+.main a:hover, .announce a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+.announce {
+  background-color: #FFE3E3;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-radius: 15px;
+  width: 200px;
+}
+
+.bottom {
+  border: 1px dotted #C9CCD5;
+  background-color: #C9CCD5;
+  text-align: center;
+  position: fixed;
+  margin: 20px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.table {
+  text-align: center;
+  width: 100%;
+}
+
+.cell:hover{
+  color: yellow;
+}
+
+.backwardimage{
+  position: fixed;
+  top: 300px;
+  left: 300px;
+  z-index: 1;
+  width: 100px;
+  height: 100px;
+}
+
+.forwardimage{
+  position: fixed;
+  z-index: 2;
+  width: 100px;
+  height: 100px;
+}
+
+.postext{
+  position: fixed;
+  z-index: 3;
+  font-size: 20pt;
+  top: 300px;
+  left: 300px;
+}
